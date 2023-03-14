@@ -1,0 +1,12 @@
+$clock-size: 240px;
+$clock-background: linear-gradient(
+  0deg, rgba(97,63,0,1) 0%, rgba(0,0,0,1) 100%
+);
+$clock-border-size: $clock-size * 0.05;
+$clock-border-color: #393939;
+$clock-center-size: $clock-size * 0.08;
+$arrow-width: $clock-size * 0.02;
+$arrow-border-radius: $clock-size * 0.03;
+$dot-height: $arrow-width * 1.5;
+$minute-arrow-height: ($clock-size / 2) * 0.5;
+$second-arrow-height: ($clock-size / 2) * 0.8;
